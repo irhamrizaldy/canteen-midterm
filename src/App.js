@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <code><FadeIn><h5 className="m-3 d-flex justify-content-center" style={{ marginTop: '25px', fontSize: '50px' }}>- Kantin Polinema -</h5></FadeIn></code>
+        <FadeIn><h5 className="m-3 d-flex justify-content-center" style={{ fontFamily: 'Arial', marginTop: '25px', fontSize: '50px' }}>Polinema Online Canteen</h5></FadeIn>
         <Navigation />
         <Switch>
           <Route path='/' component={Home} exact />
