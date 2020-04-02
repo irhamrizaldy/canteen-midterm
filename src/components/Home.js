@@ -12,7 +12,7 @@ export class Home extends Component {
         return (
             <div className="mt-1 d-flex justify-content-left">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
+                    <Card.Img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
                     <Card.Body>
                         <Card.Title>{this.state.food1st}</Card.Title>
                         <Card.Text>
@@ -22,7 +22,7 @@ export class Home extends Component {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
+                    <Card.Img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
                     <Card.Body>
                         <Card.Title>{this.state.food2nd}</Card.Title>
                         <Card.Text>
@@ -32,7 +32,7 @@ export class Home extends Component {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
+                    <Card.Img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
                     <Card.Body>
                         <Card.Title>{this.state.food3rd}</Card.Title>
                         <Card.Text>
@@ -42,7 +42,7 @@ export class Home extends Component {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
+                    <Card.Img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" />
                     <Card.Body>
                         <Card.Title>{this.state.food4th}</Card.Title>
                         <Card.Text>
